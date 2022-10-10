@@ -1,0 +1,158 @@
+*{
+    background-color: black;
+}
+
+.back{
+    background-image: url(back.jpeg);
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    text-decoration: none;
+
+    
+}
+
+li{
+    text-decoration: none;
+}
+.Div2{
+    background-color: black;
+    font-size: medium;
+    color: antiquewhite;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 30px;
+    text-transform: capitalize;
+    color: antiquewhite;
+}
+
+.navi ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-family: 'Oswald', sans-serif;
+}
+
+.intro{
+    
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translatey(-50%);
+
+}
+h1{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+
+}
+
+h3{
+    color:white;
+    font-size: 250x;
+    transform: translate(60%);
+    font-family: 'Comfortaa', cursive;
+}
+h5{
+    color:white;
+    font-size: 250x;
+    transform: translate(60%);
+    font-family: 'Comfortaa', cursive;
+}
+.aboutme{
+    width: 100%;
+    padding: 60px 0px 100px;
+    background-color: #000000;
+    
+}
+
+.aboutdivimg:hover{
+    transform: scale(1.1);
+
+}
+
+.aboutme img{
+    height: auto;
+    width: 430px;
+}
+
+.aboutmedivtext{
+    width: 95%;
+    
+    
+}
+
+.aboutmedivvid video{
+    width: 1130px;
+    max-width: 50%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    background-color: rgba(48, 47, 47, 0.466);
+}
+
+.aboutme h2{
+    color: white;
+    text-align: center;
+    padding-bottom: 3.5rem;
+    font-size: 4rem;
+    text-transform: capitalize ;
+    font-family: 'Comfortaa', cursive;
+    
+}
+
+.aboutmedivtext ul li{
+    color: rgba(255, 255, 255, 0.188);
+    list-style-type: none;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 30px;
+    margin-bottom: 45px;
+    text-align: center;
+    margin-left: 50px;
+    justify-content: space-around;
+}
+
+.contactme{
+    color: rgb(24, 18, 12);
+    background-color: #00000092;
+    width: 100%;
+    font-family: 'comfortaa',cursive;
+    text-align: center;
+}
+
+
+
+.contactdiv3 a img{
+    height: 5%;
+    width: 5%
+    
+}
+
+.footer{
+    text-align: justify;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
+    width: 100%;
+    background-color: #8e6c6c;
+}
+
+.footer h1{
+    font-size: 20px;
+}
+
